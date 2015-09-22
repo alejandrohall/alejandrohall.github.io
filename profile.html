@@ -11,26 +11,38 @@
 <link rel="icon" href="images/favicon.ico">
 
 <!-- page title -->
-<title>Alejandro Hall</title>
+<title>Alejandro Hall - Perfil</title>
 
 <!-- css stylesheets -->
 <link rel="stylesheet" href="css/ie.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/print.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/screen.css" media="screen, projection" type="text/css" />
+<style type="text/css">
+a:link {
+    color: #FFFFFF;
+    text-decoration:none;   
+}
+a:visited {
+    color: #FFFFFF;
+    text-decoration:none;   
+}
+a:hover {
+    color: #FFFFFF;
+    text-decoration:none;   
+}
+a:active {
+    color: #FFFFFF;
+    text-decoration:none;   
+}
+</style>
 
 </head>
 
-<body id="home-page">
+<body id="profile-page">
 
-
-	
-	<a href="https://github.com/alejandrohall"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/567c3a48d796e2fc06ea80409cc9dd82bf714434/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png"></a>
-
-
-
+	<a href="https://github.com/alejandrohall" target="_blank"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/567c3a48d796e2fc06ea80409cc9dd82bf714434/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png"></a>
 
 	<div id="page-wrapper">
-
 		<header id="header" role="banner">
 			<ul class="header-menu">
 				<li class="portfolio hexagon">
@@ -49,7 +61,7 @@
 					<div class="hexagon-in1">
 						<div class="hexagon-in2">
 							<div class="inner">
-								<a href="profile.html">
+								<a href="profile.html" class="active">
 									<i class="icon-vcard"></i>
 									<span>Perfil</span>
 								</a>
@@ -91,12 +103,45 @@
 			</ul>
 		</header><!-- /#header -->
 		
-		<div id="main">
-			<div class="job-title">Android &amp; Backend Developer</div>
-			<h1>Alejandro Hall</h1>
-			<p>Programador, residente en España, nacido en 1995. Amante de la tecnología y la programación.</p>
+		<section id="main">
+			<div class="page-title">
+				<h1>Perfil</h1>
+			</div>
+			<em class="subtitle">¿Quién soy? Información sobre mí.</em>
 			
-		</div>
+			<div class="content-wrapper">
+				<article class="post odd">
+					<h2 class="post-title">Hola, mi nombre es Alejandro Hall</h2>
+					<br>
+					<p>Desarrollador, residente en España, nacido en 1995. Me gusta la tecnología en general, la programación y el emprendimiento. Me encanta el desarrollo de aplicaciones, ya sea para la web, escritorio o dispositivos móviles. Estudiante de Ingeniería del Software.
+					<br>En 2013 comencé una aventura 'freelance', en la que desarrollé webs y aplicaciones para clientes, en solitario y desde mi casa. Hasta que en 2014, junto con unos compañeros decidí crear Prismater, una consultoría tecnológica, para ofrecer asesoramiento y desarrollo web, de escritorio y móvil. Lo mismo de antes pero en compañía, con más diversidad y especialización.
+					<br>En 2013 en EBE, uno de los eventos de tecnología más grande de España, gané el primer 'Hackathon' organizado en EBE. <a  href="images/hackathon.jpg" target="_blank">(Ver foto)</a>
+					<br>También he desarrollado varias aplicaciones para Android como: Motivator y Noisely.
+					<br>Este año 2014, a parte de Prismater, he decidido embarcarme en dos proyectos nuevos: <a href="http://www.amayaos.com/" target="_blank">AmayaOS</a> y <a href="http://www.forcode.es/" target="_blank">ForCode</a>. AmayaOS es un sistema operativo del tipo UNIX que funciona en Pc's antiguos con una arquitectura i586. Por otro lado, ForCode es un blog de programación en el que impartimos cursos, ejemplos, tutoriales etc... </p>
+				</article>
+				
+				<article class="post even general-skills">
+					<h2 class="post-title">¿En qué soy bueno?</h2>
+					<div class="skill-item">
+						<a href="#"><i class="icon-newspaper"></i></a>
+						<h3>Backend Development</h3>
+						<p>Python + Django</p>
+					</div>
+					<div class="skill-item">
+						<a href="#"><i class="icon-mobile"></i></a>
+						<h3>Android Apps</h3>
+						<p>Java</p>
+					</div>
+					<div class="skill-item">
+						<a href="#"><i class="icon-window"></i></a>
+						<h3>Desktop Development</h3>
+						<p>Python, Java o C/C++</p>
+					</div>
+				</article>
+				
+				
+			</div>
+		</section>
 		
 		<footer id="footer" role="contentinfo">
 			<ul>
@@ -148,5 +193,10 @@
 			</ul>
 	    </footer><!-- /#footer -->
 	</div>
+	
+	<!-- js -->
+	<script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	
 </body>
 </html>
