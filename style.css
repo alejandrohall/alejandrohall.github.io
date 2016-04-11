@@ -542,10 +542,10 @@ nav .brand-logo img {
 #portfolio-list .mix{
   display: none;
   float: left;
-  height: 320px;
+  height: 200px;
   margin-bottom: 1.33%;
   margin-left: 1%;
-  width: 32.33%;
+  width: 20.33%;
  -webkit-transition: all 0.2s ease 0s;
  -o-transition: all 0.2s ease 0s;
  transition: all 0.2s ease 0s;
